@@ -27,7 +27,7 @@ while (OP==0) {
  	
 switch (OP){
 		case 1:
-			cout << "Informaçoes da peça"<< endl;	
+			cout << "A vela de ignição fornece a centelha que inflama a mistura ar/combustível para que a combustão possa ocorrer . A faísca deve acontecer apenas no momento certo para que as coisas funcionem corretamente."<< endl<< endl;	
 			cout<<	"DESEJA COMPRAR ? Digite 's' para sim e 'n' para não: "	;
 			cin>> OP2;
 			cout << endl;
@@ -55,7 +55,7 @@ switch (OP){
 		
 			
 		case 2:
-			cout << "Informaçoes da peça"<< endl;	
+			cout << "As válvulas de admissão e escape abrem no momento adequado para deixar ar e combustível entrarem e sair. Note-se que ambas as válvulas estão fechadas durante a compressão e a combustão de modo que a câmara de combustão está vedada."<< endl<< endl;	
 			cout<<	"DESEJA COMPRAR ? Digite 's' para sim e 'n' para não: ";	
 			cin>> OP2;
 			cout << endl;
@@ -79,7 +79,7 @@ switch (OP){
 			break;
 			
 		case 3:
-			cout << "Informaçoes da peça"<< endl;	
+			cout << "Um pistão é uma peça cilíndrica de metal que se move para cima e para baixo no interior do cilindro."<< endl<< endl;	
 			cout<<	"DESEJA COMPRAR ? Digite 's' para sim e 'n' para não: ";	
 			cin>> OP2;
 			cout << endl;
@@ -103,7 +103,7 @@ switch (OP){
 			break;
 			
 		case 4:
-			cout << "Informaçoes da peça"<< endl;	
+			cout << "A haste que liga o pistão ao eixo. Ele pode rodar em ambas as extremidades de modo que o seu ângulo pode mudar como os movimentos do pistão, rodando o eixo."<< endl<< endl;	
 			cout<<	"DESEJA COMPRAR ? Digite 's' para sim e 'n' para não: ";	
 			cin>> OP2;
 			cout << endl;
@@ -127,7 +127,7 @@ switch (OP){
 			break;
 			
 		case 5:
-			cout << "Informaçoes da peça"<< endl;	
+			cout << "O virabrequim transforma o movimento do pistão para cima e para baixo em movimento circular que faz as rodas do veículo rodarem através do movimento no eixo cardã."<< endl<< endl;	
 			cout<<	"DESEJA COMPRAR ? Digite 's' para sim e 'n' para não: ";	
 			cin>> OP2;
 			cout << endl;
@@ -151,7 +151,7 @@ switch (OP){
 			break;
 			
 		case 6:
-			cout << "Informaçoes da peça"<< endl;	
+			cout << "O cárter envolve o virabrequim. Ele contém uma certa quantidade de óleo, o qual se acumula no fundo do cárter (cárter de óleo)."<< endl<< endl;	
 			cout<<	"DESEJA COMPRAR ? Digite 's' para sim e 'n' para não: ";	
 			cin>> OP2;
 			cout << endl;
@@ -177,4 +177,3 @@ switch (OP){
 
   }
 }
-
