@@ -51,7 +51,6 @@ switch (OP){
 			cin >> quant;
 			cout << endl;
 			totalvela=vela*quant;
-			total=totalvela+totalvalvula+totalpistao+totalbiela+totalvibre+totalcarter;
 			cout <<"O valor total é: R$" << totalvela<<endl << endl <<"FINALIZAR COMPRA ? Digite 's' para sim e 'n' para não: ";
 			cin>>OP2;
 			system("cls");
@@ -60,8 +59,7 @@ switch (OP){
 
 			if (OP2=='n') {
 			OP=0;}
-			else { cout<< "o valor total é: R$"<<total;
-			}
+		
 	break;
 
 
@@ -85,15 +83,13 @@ switch (OP){
 			cin >> quant;
 			cout << endl;
 			totalvalvula=valvula*quant;
-			total=totalvela+totalvalvula+totalpistao+totalbiela+totalvibre+totalcarter;
 			cout <<"O valor total é: R$" << totalvalvula<< endl << endl <<"FINALIZAR COMPRA ? Digite 's' para sim e 'n' para não: ";
 			cin>>OP2;
 			system("cls");}
 
 			if (OP2=='n') {
 			OP=0;}
-			else { cout<< "o valor total é: R$"<<total;
-			}
+		
 			break;
 
 		case 3:
@@ -116,15 +112,13 @@ switch (OP){
 			cin >> quant;
 			cout << endl;
 			totalpistao=pistao*quant;
-			total=totalvela+totalvalvula+totalpistao+totalbiela+totalvibre+totalcarter;
 			cout <<"O valor total é: R$" <<totalpistao<<endl << endl <<"FINALIZAR COMPRA ? Digite 's' para sim e 'n' para não: ";
 			cin>>OP2;
 			system("cls");}
 
 			if (OP2=='n') {
 			OP=0;}
-			else { cout<< "o valor total é: R$"<<total;
-			}
+			
 			break;
 
 		case 4:
@@ -147,15 +141,13 @@ switch (OP){
 			cin >> quant;
 			cout << endl;
 			totalbiela=biela*quant;
-			total=totalvela+totalvalvula+totalpistao+totalbiela+totalvibre+totalcarter;
 			cout <<"O valor total é: " <<totalbiela<<"R$"<<endl << endl<<"FINALIZAR COMPRA ? Digite 's' para sim e 'n' para não: ";
 			cin>>OP2;
 			system("cls");}
 
 			if (OP2=='n') {
 			OP=0;}
-			else { cout<< "o valor total é: R$"<<total;
-			}
+		
 			break;
 
 		case 5:
@@ -179,15 +171,13 @@ switch (OP){
 			cin >> quant;
 			cout << endl;
 			totalvibre=vibre*quant;
-			total=totalvela+totalvalvula+totalpistao+totalbiela+totalvibre+totalcarter;
 			cout <<"O valor total é: R$" <<totalvibre<<endl << endl <<"FINALIZAR COMPRA ? Digite 's' para sim e 'n' para não: ";
 			cin>>OP2;
 			system("cls");}
 
 			if (OP2=='n') {
 			OP=0;}
-			else { cout<< "o valor total é: R$"<<total;
-			}
+		
 			break;
 
 		case 6:
@@ -211,20 +201,20 @@ switch (OP){
 			cin >> quant;
 			cout << endl;
 			totalcarter=carter*quant;
-			total=totalvela+totalvalvula+totalpistao+totalbiela+totalvibre+totalcarter;
 			cout <<"O valor total é: R$" <<totalcarter<<endl << endl <<"FINALIZAR COMPRA ? Digite 's' para sim e 'n' para não:  ";
 			cin>>OP2;
 			system("cls");}
 
 			if (OP2=='n') {
 			OP=0;}
-			else { cout<< "o valor total é: "<<"R$"<<total;
-			}
+		
 			break;
 	}
 
   }
-  cout <<endl<<"TOTAL:"<<endl;
+total=totalvela+totalvalvula+totalpistao+totalbiela+totalvibre+totalcarter;
+
+  cout <<endl<<"TOTAL: R$"<<total<<endl;
   if(totalvela>0){
   	cout<<"Vela de ignição: R$"<<totalvela<<endl;
   }
@@ -243,5 +233,6 @@ switch (OP){
   if(totalcarter>0){
   	cout<<"Cárter: R$"<<totalcarter<<endl;
   }
+  
   
 }
